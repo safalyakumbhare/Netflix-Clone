@@ -539,4 +539,25 @@
     width: 75%;
     height: 100%;
   }
+  
+  .page3-con{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .page3-box{
+    width: 100%;
+    text-align: center;
+    justify-content: start;
+    padding: 0 40px 0 40px;
+  }
+  .page3-box #res{
+    width: 80%;
+    height: 30%;
+  }
+
+  .page3-box .card{
+    left:50px;
+    top:180px;
+    width: 400px;
+  }
 }

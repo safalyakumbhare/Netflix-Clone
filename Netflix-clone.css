@@ -466,7 +466,7 @@
   }
 
   .ready-email input {
-    width: 150px;
+    /* width: 120px; */
   }
 
   .option-con select{
@@ -485,9 +485,15 @@
     font-size: 40px;
     font-weight: 800;
   }
-
+  .get{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .get input{
     width:200px;
+    margin: 20px;
   }
   .get button{
     width: 150px;
@@ -519,5 +525,8 @@
     width: 100%;
     height: 50%;
     left: 0;
+  }
+  .page2-box video{
+    height: 70%;
   }
 }

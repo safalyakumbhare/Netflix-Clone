@@ -526,17 +526,20 @@
   .page2-box{
     width: 100%;
     text-align: center;
-    justify-content: start;
+  }
+
+  .page2-box h1{
+    font-size: 35px;
   }
   .page2-box-text{
     padding: 0 40px 0 40px;
   }
   .page2-box img{
     width: 100%;
-    height: 50%;
+    height: 35%;
   }
   .page2-box video{
-    width: 75%;
+    width: 70%;
     height: 100%;
   }
   
@@ -548,16 +551,73 @@
     width: 100%;
     text-align: center;
     justify-content: start;
-    padding: 0 40px 0 40px;
+    /* padding: 0 40px 0 40px; */
   }
   .page3-box #res{
     width: 80%;
     height: 30%;
   }
 
+  .page3-box h1{
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  .page3-box p{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
   .page3-box .card{
     left:50px;
     top:180px;
-    width: 400px;
+    width: 70%;
+  }
+
+  .card-img{
+    width: 30%;
+  }
+
+  .card-text{
+    width: 30%;
+  }
+
+  .card-text{
+    text-align: left;
+    padding: 5px;
+  }
+  .card-text h4{
+    font-size: 14px;
+  }
+
+  .card-text p{
+    font-size: 12px;
+  }
+
+  .page5-con{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .page5-box{
+    width:100%;
+    justify-content: start;
+    text-align: center;
+  }
+  .page5-box h1{
+    font-size: 30px;
+  }
+  .page5-box p{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .page4-video img{
+    width:80%;
+    height: 40%;
+  }
+
+  .page4-video video{
+    width: 50%;
   }
 }

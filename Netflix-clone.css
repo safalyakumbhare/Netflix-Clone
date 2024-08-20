@@ -480,7 +480,7 @@
     width: 70px;
   }
   .page1 {
-    height: 60vh;
+    height: 80vh;
   }
   .start {
     text-align: center;
@@ -517,7 +517,7 @@
     /* font-size: 15px; */
   }
   .dark {
-    height: 60vh;
+    height: 80vh;
   }
 
   .page2-con {
@@ -543,10 +543,10 @@
     height: 100%;
   }
   .page2{
-    height: 60vh;
+    height: 80vh;
   }
   .page3{
-    height: 80vh;
+    height: 100vh;
   }
   .page3-con {
     width: 100%;
@@ -633,7 +633,7 @@
     left: 88px;
   }
   .page5{
-    height: 60vh;
+    height: 80vh;
   }
   .page5-kids{
     align-items: center;
@@ -675,13 +675,21 @@
 
   .footer{
     text-align: center;
+    height: 80vh;
   }
   .footer .foot-con{
     width: 100%;
     flex-direction: column;
   }
+
+  .foot-box-con{
+    flex-direction: column;
+  }
   .foot-boxes{
     width: 100%;
     /* padding:50px; */
+  }
+  .option-con,.in{
+    display: none;
   }
 }
